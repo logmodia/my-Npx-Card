@@ -1,0 +1,28 @@
+{
+  "name": "logmodia-npx-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "logmodia":"./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logmodia/my-Npx-Card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logmodia/my-Npx-Card/issues"
+  },
+  "homepage": "https://github.com/logmodia/my-Npx-Card#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^4.1.2"
+  }
+}
