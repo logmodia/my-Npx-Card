@@ -42,9 +42,11 @@ console.log(
                 `${data.labelCard} ${data.npx}`,
             ].join(NEWLINE),
             {
+                titleAlignment: "center",
+                title: "Npx Card",
                 padding: 1,
                 margin: 1,
-                borderStyle: "round",
+                borderStyle: "double",
             },
         ),
     ),
